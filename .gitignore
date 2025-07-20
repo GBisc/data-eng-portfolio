@@ -1,0 +1,103 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+.virtualenv/
+
+# Python Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Data files (be cautious, only ignore large or sensitive data)
+*.csv
+*.parquet
+*.avro
+*.json
+*.jsonl
+*.db
+
+# Secrets and sensitive information
+*.pem
+*.key
+*.credentials
+secrets.yml
+.secrets
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Specific data engineering tool ignores
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+
+# Docker
+.docker/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Pickle files (serialized Python objects)
+*.pkl
+
+# Specific project-level virtual environments
+*/venv/
+*/env/
+*/.venv/
+
+# Ignore large data directories
+data/raw/
+data/processed/
+data/external/
+
+# Ignore configuration files with potential sensitive info
+config.yml
+config.yaml
+*.config
