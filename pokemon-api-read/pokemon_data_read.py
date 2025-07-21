@@ -27,3 +27,7 @@ for pokemon_id in range(1, 21):
     pokemon = get_pokemon_safely(pokemon_id)
     if pokemon:  
         pokemon_list.append(pokemon)
+
+df = pd.DataFrame(pokemon_list)
+df.to_csv('pokemon_with_errors.csv', index=False)
+print(f"✅ Successfully saved {len(df)} Pokemon")
